@@ -36,7 +36,8 @@ IPsec VPN 可以加密你的网络流量，以防止在通过因特网传送时�
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
 
-如果使用 CentOS，请将上面的地址换成 `https://git.io/vpnsetup-centos`。
+如果使用 CentOS，请将上面的地址换成 
+ `wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh`
 
 你的 VPN 登录凭证将会被自动随机生成，并在安装完成后显示在屏幕上。
 
